@@ -8,5 +8,5 @@ Comparing two set of files is possible via `diff` command. It can be used with `
 If the content of aforementioned text files are not small in size, generating cryptographic digests (by using **hash functions**) of files can be useful. Thus we can compare digests instead of comapring the whole files.  
 ### 3. Write a hello-world C program and explain how we can dump its binary code with radare2.  
 Steps and commands entered to do so is shown in the following figure.  
-![radare2](r2.png)  
+![radare2](radare2.png)  
 `r2` is for radare2. `-q` switch exits the shell after executing the command specified by `-c` switch. `pi` commands prints a number of bytes of the binary file. As the `%s` indicates the file size, so `pi %s` command dumps the whole binary file.  
